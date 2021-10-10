@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="exportkit.xd" >
+
+	
+
+	<application
+		android:allowBackup="true"
+		android:theme="@style/AppTheme"
+		android:label="@string/app_name" >
+		<activity
+		android:name=".firstpage_activity"
+			android:exported="true"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+		android:label="@string/app_name"  >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+<!--			<activity android:name="exportkit.xd.firstpage_activity"></activity>-->
+			<activity android:name="exportkit.xd.loginin_activity"></activity>
+			<activity android:name="exportkit.xd.signup_activity"></activity>
+			<activity android:name="exportkit.xd.question_gender_activity"></activity>
+			<activity android:name="exportkit.xd.question_height_weight_activity"></activity>
+			<activity android:name="exportkit.xd.question_name_activity"></activity>
+			<activity android:name="exportkit.xd.question_profession_activity"></activity>
+			<activity android:name="exportkit.xd.question_medical_condition_activity"></activity>
+			<activity android:name="exportkit.xd.question_goals_activity"></activity>
+			<activity android:name="exportkit.xd.question_preference_activity"></activity>
+	</application>
+
+</manifest>
+	
+	
